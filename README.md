@@ -52,6 +52,6 @@ redis-cli -h 127.0.0.1 -p 6384 cluster replicate 20fd02a2af014a786c2ee5f086dd20c
 redis-cli -h 127.0.0.1 -p 6385 cluster replicate b63fd9259599a9ecc05d0187aa13ec2edbe8cb58
 
 7, Run following command to start application
- java -jar ${code_dir}/target/redis-lock-0.0.1-SNAPSHOT.jar
+ java -jar ${code_dir}/redis-conf/redis-lock-0.0.1-SNAPSHOT.jar
 8, Access this url and check the backend log information
  http://localhost:8080/testlock
